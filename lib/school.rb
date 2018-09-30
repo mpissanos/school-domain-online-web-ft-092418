@@ -14,9 +14,9 @@ class School
        @roster.grades << student_name
      else
       @roster[grade] = []
-      @roster[grade]<< student_name
-     end
-     end
-   end
- end
+      @roster[grade] << student_name
+    end
+  end
+end
+
   
