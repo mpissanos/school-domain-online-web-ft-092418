@@ -19,5 +19,3 @@ class School
      end
    end
   
-  
-School.new()
