@@ -12,8 +12,7 @@ class School
    @roster.each do |x| 
      if x == grade
        @roster[x] << student_name
-       
-    else
+     else
       @roster[grade] = []
       @roster[grade]<< student_name
     end
