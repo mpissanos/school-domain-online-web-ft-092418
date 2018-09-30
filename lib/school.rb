@@ -12,14 +12,12 @@ class School
    @roster.each do |grades| 
      if grades == grade
        @roster.grades << student_name
-       return 
      else
       @roster[grade] = []
       @roster[grade]<< student_name
      end
      end
-     end
-end
+   end
   
   
 School.new()
