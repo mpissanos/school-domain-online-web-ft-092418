@@ -14,7 +14,7 @@ class School
   
   
   def add_student(student_name, grade)
-   @roster.@school_name.each do |grades| 
+   @roster[school_name].each do |grades| 
       if grades == grade
         @roster.grades << student_name
       else
